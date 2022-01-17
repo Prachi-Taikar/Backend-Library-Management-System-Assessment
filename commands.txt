@@ -1,0 +1,20 @@
+virtualenv venv
+
+pip install django
+
+pip install djangorestframework
+
+django-admin startproject APIProject .
+
+python manage.py makemigrations
+
+python manage.py migrate       
+
+ py manage.py startapp api 
+
+ python manage.py createsuperuser
+
+ username: admin
+ pass: 12345
+
+ pip install django-cors-headers
