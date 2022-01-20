@@ -18,3 +18,6 @@ python manage.py migrate
  pass: 12345
 
  pip install django-cors-headers
+ 
+
+pip install mysqlclient
